@@ -1,0 +1,50 @@
+/*To allign the text in the center of the page*/
+.centered {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*To allign the text in the left of the page*/
+.left {
+    align-items: left;
+    display: flex;
+    justify-content: left;
+}
+
+/*To allign the text in the right of the page*/
+.right {
+    align-items: right;
+    display: flex;
+    justify-content: right;
+}
+
+/*Design of table*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/*Design of footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: black;
+    text-align: center;
+}
+
+/* Path: homepage/styles.css */
